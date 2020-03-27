@@ -27,8 +27,14 @@ print(d.values())
 
 print("\n")
 
+""" program to find failed subject"""
+
 d = {"maths":55,"phy":35,"chem":25,"eng":80}
 pass_marks = 40
 for key,value in d.items():
     if value < pass_marks:
         print(key)
+
+
+
+
