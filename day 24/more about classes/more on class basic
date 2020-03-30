@@ -1,0 +1,47 @@
+lets recall the basic of the classes again here
+
+class: A programmer-defined type. A class definition creates a new class object.
+class object: An object that contains information about a programmer-defined type. The
+class object can be used to create instances of the type.
+instance: An object that belongs to a class.
+instantiate: To create a new object.
+attribute: One of the named values associated with an object.
+embedded object: An object that is stored as an attribute of another object.
+shallow copy: To copy the contents of an object, including any references to embedded
+objects; implemented by the copy function in the copy module.
+deep copy: To copy the contents of an object as well as any embedded objects, and any
+objects embedded in them, and so on; implemented by the deepcopy function in the
+copy module.
+object diagram: A diagram that shows objects, their attributes, and the values of the at-
+tributes.
+
+prototype and patch: A development plan that involves writing a rough draft of a pro-
+gram, testing, and correcting errors as they are found.
+designed development: A development plan that involves high-level insight into the
+problem and more planning than incremental development or prototype develop-
+ment.
+pure function: A function that does not modify any of the objects it receives as arguments.
+Most pure functions are fruitful.
+modifier: A function that changes one or more of the objects it receives as arguments. Most
+modifiers are void; that is, they return None .
+functional programming style: A style of program design in which the majority of func-
+tions are pure.
+invariant: A condition that should always be true during the execution of a program.
+
+
+object-oriented language: A language that provides features, such as programmer-
+defined types and methods, that facilitate object-oriented programming.
+object-oriented programming: A style of programming in which data and the operations
+that manipulate it are organized into classes and methods.
+method: A function that is defined inside a class definition and is invoked on instances of
+that class.
+subject: The object a method is invoked on.
+positional argument: An argument that does not include a parameter name, so it is not a
+keyword argument.
+operator overloading: Changing the behavior of an operator like + so it works with a
+programmer-defined type.
+type-based dispatch: A programming pattern that checks the type of an operand and in-
+vokes different functions for different types.
+polymorphic: Pertaining to a function that can work with more than one type.
+
+
