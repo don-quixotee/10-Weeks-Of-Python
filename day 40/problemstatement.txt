@@ -1,0 +1,7 @@
+A simple real estate application that allow an agent to manage properties avaulable¶
+ for purchase or rent . 
+ there will be two types of properties :-
+                                    Apartment
+                                    Houses
+ the agent need to be able to enter some relevant detain about new properties
+ list all curently available properties and make a property as sold or rented

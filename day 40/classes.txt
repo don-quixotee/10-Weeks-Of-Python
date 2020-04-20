@@ -1,0 +1,27 @@
+class property:
+    area
+    num of bedroom
+    num of bathroom
+    display()
+
+
+class apartment(property):
+    balcony 
+    laundry
+    display()
+    
+class House(property):
+    num of stories
+    garage
+    fenched yard 
+    dislay()
+class purchase(house, apartment):
+    price
+    taxes
+    display
+
+class rental(house, apartment):
+    furnished
+    utilities
+    rent
+    display
