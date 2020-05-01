@@ -1,0 +1,36 @@
+blog:
+
+ classes: Author:
+          categories:
+          blog:
+
+Author:
+    first_name
+    last_name
+    profession
+    email
+    followers
+    
+
+
+
+categories:
+    name 
+    followers
+    blogs_count
+    description
+
+
+
+blog:
+    id
+    title
+    description
+    Author
+    category
+    likes
+    comment
+    views
+    createion_date
+
+
